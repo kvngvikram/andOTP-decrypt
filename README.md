@@ -12,6 +12,8 @@ Tools:
   - Images are saved to the current working directory
 - `generate_code.py`: A tool to generate a TOTP token for an account in the backup
 
+- `generate_all_codes.py`: A custom script derived from `generate_code.py` that will generate all the TOTP codes or the ones that match the issuer name.
+
 ## Installation
 
 `pip install andotp-decrypt`
